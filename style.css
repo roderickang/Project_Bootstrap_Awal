@@ -1,3 +1,32 @@
 body {
   font-family: "Lato", sans-serif;
 }
+
+.row-padding {
+  padding: 100px 0px;
+}
+
+.home-weedid {
+  margin-top: 150px;
+}
+
+.home-weedid h1 {
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.home-weedid h4 {
+  font-weight: 300;
+  margin-top: 20px;
+  font-size: 21px;
+  letter-spacing: 2px;
+}
+
+.showcase {
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.showcase img {
+  width: 85%;
+}
