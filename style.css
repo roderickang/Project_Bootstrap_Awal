@@ -1,9 +1,18 @@
 body {
   font-family: "Lato", sans-serif;
+  color: #606060;
+}
+
+.wrap-container {
+  overflow: hidden;
 }
 
 .row-padding {
   padding: 100px 0px;
+}
+
+.no-margin {
+  margin: 0px;
 }
 
 .home-weedid {
@@ -31,7 +40,7 @@ body {
   width: 85%;
 }
 
-h5.quotes {
+h5.quote {
   font-size: 23px;
   line-height: 35px;
   letter-spacing: 2px;
@@ -42,4 +51,35 @@ h6.penulis {
   font-size: 17px;
   margin-top: 20px;
   letter-spacing: 1px;
+}
+
+.border-line {
+  position: relative;
+}
+
+.border-line::before {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 1px;
+  background-color: #d0d0d0;
+  left: -500px;
+  right: -500px;
+  top: 50%;
+}
+
+.card-padding {
+}
+
+.cart-title {
+  font-weight: 300;
+}
+
+.card-padding {
+  padding: 30px;
+}
+
+.card-floating {
+  border-top: 5px solid #5bacf3;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
 }
