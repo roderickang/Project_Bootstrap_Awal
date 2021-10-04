@@ -83,3 +83,33 @@ h6.penulis {
   border-top: 5px solid #5bacf3;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
 }
+
+.row-divider {
+  position: relative;
+}
+
+.row-divider::before {
+  position: absolute;
+  content: "";
+  width: 80%;
+  height: 1px;
+  background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0) 100%);
+  top: 0;
+  margin: -40%;
+  left: 50%;
+}
+
+.head-section {
+  margin-bottom: 60px;
+}
+
+.teknologi img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.teknologi h5 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
